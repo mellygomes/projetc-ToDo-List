@@ -1,0 +1,11 @@
+.Rodape {
+    background-color: var(--preto);
+    color: var(--cinza);
+    padding: 0.5rem 1rem;
+    position: absolute;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
