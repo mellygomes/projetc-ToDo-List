@@ -1,17 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
+import { Router } from './Router'
+
 import './App.css'
-import {Cabecalho, Conteudo, Rodape} from './components'
-import { Inicial } from './pages'
 
 function App() {
-
+  
   return (
-    <>
-      <Cabecalho nomeUsuario="Melly"/>
-      <Conteudo>
-          <Inicial></Inicial>
-      </Conteudo>
-      <Rodape criador="Melly Gomes"> </Rodape>
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
