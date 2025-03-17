@@ -7,7 +7,7 @@ const ListaTarefasItem = (props) => {
     const {id, nome} = props 
 
     const [EstaEditando, setEstaEditando] = useState(false)
-
+    
     const { editarTarefa, removerTarefa } = useAppContext()
 
     return (
