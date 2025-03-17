@@ -1,0 +1,17 @@
+.Loading {
+    background-image: url('../../Icons/loading-gif.gif');
+    background-size: cover;
+}
+
+.Loading[tipo="pequeno"] {
+    padding: 0.5rem 0.5rem;
+    margin: 0;
+    background-image: url('../../Icons/loading-simple-gif.gif');
+    background-size: cover;
+}
+
+.Loading[tipo="grande"] {
+    padding: 3.5rem 3.5rem;
+    background-image: url('../../Icons/loading-gif.gif');
+    background-size: cover;
+}
