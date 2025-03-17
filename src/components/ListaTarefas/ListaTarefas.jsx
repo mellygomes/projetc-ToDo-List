@@ -10,7 +10,7 @@ const ListaTarefas = () => {
         <ul className={style.ListaTarefas}>
 
             {!tarefas.length && (
-                <p>Não há tarefas cadastradas...</p>
+                <p> Não há tarefas cadastradas... </p>
             )}
 
             {tarefas.map(item => (

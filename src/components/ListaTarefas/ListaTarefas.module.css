@@ -4,3 +4,7 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
+.ListaTarefas p {
+    padding: 2rem;
+}
