@@ -1,0 +1,76 @@
+
+.Saudacao {
+    font-size: 1.3rem;
+}
+
+.AboutText {
+    width: 30%;
+}
+
+.AboutText p {
+    padding-bottom: 2.5rem;
+    text-align: justify;
+}
+
+.linkReact {
+    color: rgb(0, 154, 152);
+}
+
+.link {
+    color: #424a8b;
+}
+
+.Content {
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    color: #363953; 
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Gif {
+    width: 30%;
+    background-image: url('../../Icons/gato-laranja-2.gif');
+    background-size: cover;
+}
+
+@media screen and (max-width: 1400px) {
+    
+    .AboutText {
+        width: 50%;
+    }
+    
+    .Gif {
+        padding: auto;
+        max-width: 100%;
+        background-image: url('../../Icons/gato-laranja-menor.gif');
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .Content {
+        margin-top: 1rem;
+        justify-content: center;
+        align-items: center;
+        color: #363953; 
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .AboutText {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .Gif {
+        height: 10rem; 
+        width: 10rem;
+        background-image: url('../../Icons/gato-laranja-menor.gif');
+        background-size: cover;
+        background-position: center;
+    }
+}

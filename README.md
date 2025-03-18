@@ -1,3 +1,9 @@
+# ToDo List
+
+Esta aplicação Web é um projeto desenvolvido de acordo com a trilha de Introdução ao React.js oferecida pela instituição executora Venturus através do programa Tic em Trilhas.
+
+Trata-se de uma Lista de Tarefas. Possui as funcionalidades de adicionar, editar e remover e também há integração com o Backend. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

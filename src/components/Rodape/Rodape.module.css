@@ -1,11 +1,16 @@
 .Rodape {
     background-color: var(--preto);
     color: var(--cinza);
-    padding: 0.5rem 1rem;
-    position: absolute;
+    padding: 0.5rem;
     text-align: center;
     font-size: 0.9rem;
     width: 100%;
     left: 0;
     bottom: 0;
+    position: fixed;
+}
+
+.Rodape a {
+    text-decoration: none;
+    color: var(--cinza);
 }

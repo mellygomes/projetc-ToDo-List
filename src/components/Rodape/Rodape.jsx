@@ -10,7 +10,7 @@ const Rodape = (props) => {
     
     return (
         <div  className={style.Rodape}> 
-            <footer>React Básico - {anoAtual} - @{criador}</footer>
+            <footer>React Básico {anoAtual} - <a href='https://github.com/mellygomes'>{criador}</a></footer>
         </div>
     )
 }

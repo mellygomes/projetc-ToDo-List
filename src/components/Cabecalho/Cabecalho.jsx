@@ -9,7 +9,7 @@ const Cabecalho = () => {
                 <h1> <span>ToDo </span> List </h1>
             </Link>
 
-            <Link to="/sobre-nos"> Sobre Nós </Link>
+            <Link to="/about-dev"> <span className={style.About}> About Dev </span> </Link>
         </div>
     )
 }
